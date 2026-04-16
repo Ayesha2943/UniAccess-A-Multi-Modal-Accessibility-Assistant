@@ -1,4 +1,66 @@
-opencv-python==4.9.0.80
-mediapipe==0.10.11
-PyAutoGUI==0.9.54
-numpy==1.26.4
+## ⚙️ Requirements
+
+### 💻 Hardware Requirements
+
+* Laptop/Desktop with minimum **Intel i3 / Ryzen 3 processor**
+* **4 GB RAM** (8 GB recommended for smooth performance)
+* Webcam (for eye tracking & gesture recognition)
+* Microphone (for voice commands)
+* Stable power supply
+
+---
+
+### 🖥️ Software Requirements
+
+* Operating System:
+
+  * Windows / Linux / macOS
+* Python:
+
+  * Python 3.8 or above
+
+---
+
+### 📦 Python Libraries
+
+Install all dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+Or install manually:
+
+```bash
+pip install opencv-python mediapipe pyautogui numpy SpeechRecognition
+```
+
+---
+
+### 📚 Libraries Used
+
+* **OpenCV** → Video capture & image processing
+* **MediaPipe** → Hand tracking & face mesh detection
+* **PyAutoGUI** → Mouse and system control
+* **NumPy** → Mathematical computations
+* **SpeechRecognition** → Voice command processing
+
+---
+
+### ⚡ Performance Requirements
+
+* Multi-threaded CPU recommended for real-time processing
+* System should handle:
+
+  * Continuous video capture
+  * Audio processing
+  * Real-time gesture & eye tracking
+
+---
+
+### 🧩 Additional Requirements
+
+* Good lighting conditions (for better accuracy)
+* Low background noise (for voice recognition)
+* Proper camera positioning
+
